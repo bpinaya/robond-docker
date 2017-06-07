@@ -1,15 +1,14 @@
 # Udacity RoboND Docker container
 
-[//]: # (Image References)
+[//]: # (Image References)	
 
+[image0]: ./img/redme5.png "All installed"
+[image1]: ./img/redme1.png "1"
+[image2]: ./img/redme2.png "2"
+[image3]: ./img/redme3.png "3"
+[image4]: ./img/redme4.png "4"
 
-[all]: ./img/readme5.png "All installed"
-[1]: ./img/readme5.png "1"
-[2]: ./img/readme5.png "2"
-[3]: ./img/readme5.png "3"
-[4]: ./img/readme5.png "4"
-
-![alt text][all]
+![alt text][image0]
 This is a Docker Container for Udacity's Robotics Nanodegree, it'll allow you to run Assigment 2 on your browser from any OS:
   - Linux (Tested in Ubuntu 14.04)
   - Windows (To be tested)
@@ -33,7 +32,7 @@ in your terminal (Note that in Ubuntu, if not set up properly, you'll need sudo 
 
 ## Using your container
 After you've run that command, you'll probable wait for the container to download, then you'll see an output like this:
-![alt text][1]
+![alt text][image1]
 
 
 then, open your favorite browser (Chrome is prefered, but tested in Firefox) and navigate to:
@@ -45,13 +44,13 @@ or
 127.0.0.1:6080
 ```
 and you should see your desktop like this:
-![alt text][2]
+![alt text][image2]
 
 And there you have it! Your own 16.04 with everything you need to get working installed.
 ## Running your second assigment
 
 As you've seen in the lessons, you need to navigate and create your work environment, but this is already done for you. Right now, you'll need 4 terminals (Also we'll run the demo here, so remember to set the `demo` value in `inverse_kinematics.launch` to `true`). You can open terminals like this:
-![alt text][3]
+![alt text][image3]
 In the first terminal type:
 ```
 roslaunch kuka_arm target_description.launch
@@ -70,7 +69,7 @@ roslaunch kuka_arm inverse_kinematics.launch
 ```
 
 And that's it!!! You have your environment running wherever you want. As you might have noticed, running this 4 commands in 4 different windows in the same than running your `safe_spawner.sh` script, but running that won't work, I am trying to figure out why, then again this repo will improve, and eventually add all the assigments. Check that you see this:
-![alt text][4]
+![alt text][image4]
 
 **NOTE** Be aware of your files, if you load docker with your local volumes you'll be able to save your changes, otherwise you'll have to commit your changes to your favorite Content Managment System (Github ;) )
 
