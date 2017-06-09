@@ -1,5 +1,5 @@
-[![Docker Stars](https://img.shields.io/docker/stars/_/ubuntu.svg)](https://hub.docker.com/r/bpinaya/robond-docker/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg)](https://hub.docker.com/r/bpinaya/robond-docker/)
+[![Docker Stars](https://img.shields.io/docker/stars/bpinaya/robond-docker.svg)](https://hub.docker.com/r/bpinaya/robond-docker/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/bpinaya/robond-docker.svg)](https://hub.docker.com/r/bpinaya/robond-docker/)
 
 # Udacity RoboND Docker container
 
