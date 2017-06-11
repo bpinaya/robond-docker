@@ -10,7 +10,7 @@
 [image2]: ./img/redme2.png "2"
 [image3]: ./img/redme3.png "3"
 [image4]: ./img/redme4.png "4"
-[imagewin]: ./img/imagewin.png "imagewin"
+[imagewin]: ./img/imagewin.PNG "imagewin"
 ![alt text][image0]
 This is a Docker Container for Udacity's Robotics Nanodegree, it'll allow you to run Assigment 2 on your browser from any OS:
   - Linux (Tested in Ubuntu 14.04)
