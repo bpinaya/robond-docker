@@ -10,7 +10,7 @@
 [image2]: ./img/redme2.png "2"
 [image3]: ./img/redme3.png "3"
 [image4]: ./img/redme4.png "4"
-
+[imagewin]: ./img/imagewin.png "imagewin"
 ![alt text][image0]
 This is a Docker Container for Udacity's Robotics Nanodegree, it'll allow you to run Assigment 2 on your browser from any OS:
   - Linux (Tested in Ubuntu 14.04)
@@ -31,7 +31,17 @@ docker run -it --rm -p 6080:80 bpinaya/robond-docker
 ```
 in your terminal (Note that in Ubuntu, if not set up properly, you'll need sudo to run the container).
 
+If you want to use a VNC client (Like [RealVNC](https://www.realvnc.com/download/viewer/)), try running this line:
+```bash
+docker run -it --rm -p 6080:80 -p 5900:5900 bpinaya/robond-docker
+```
+Then open it in your VNC viewer with the port 5900.
 
+**NOTE** If you are using Windows, you might want to figure out the IP that it gives to Docker, it's easy, if you open your Docker terminal it should be within the first lines, like this:
+
+![alt text][imagewin]
+
+As you can see, the IP for that docker is ` 192.168.99.100` . So navigate to ` 192.168.99.100:6080` if you are using the browser option.
 
 ## Using your container
 After you've run that command, you'll probable wait for the container to download, then you'll see an output like this:
