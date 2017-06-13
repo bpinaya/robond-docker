@@ -23,7 +23,7 @@ This container was born out of need, since I need 14.04 in my computer but neede
 You'll need to install Docker in your computer, if you've used Docker before this step should be straight forward, otherwise check [this link](https://www.docker.com/what-docker) for more information about it.
   - Installation's instructions for Ubuntu can be found [HERE](https://docs.docker.com/engine/installation/linux/ubuntu/)
   - Installation's instructions for Windows can be found [HERE](https://docs.docker.com/docker-for-windows/install/)
-  - Installation's instructions for Windows can be found [HERE](https://docs.docker.com/docker-for-mac/install/)
+  - Installation's instructions for MacOS can be found [HERE](https://docs.docker.com/docker-for-mac/install/)
 
 After you have Docker installed, running the container should be as easy as typing:
 ```bash
